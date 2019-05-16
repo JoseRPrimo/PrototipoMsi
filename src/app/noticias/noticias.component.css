@@ -1,0 +1,50 @@
+.flex{
+    background-color: rgb(12, 12, 27);
+    position: absolute;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    flex-direction: column;
+    display: flex;
+}
+
+.item-flex{
+    justify-content: center;
+    align-items:center;
+    height: 100%;
+    width: 100%;
+}
+
+.container{
+    border: solid #463714 3px;
+    background-color:white;
+    width: 75%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    margin: 15px 0px 15px 0px;
+}
+
+img{
+    width: 350x;
+    height: 270px;
+    margin: 5px 0px 5px 5px;
+}
+
+.texto{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    margin: 10px 10px 0px 10px;
+    font-size: 20px;
+}
+
+#msi{
+    height: 233px;
+}
+
+h6{
+    margin: auto 0px 5px 0px;
+}
