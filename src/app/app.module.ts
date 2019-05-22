@@ -8,6 +8,12 @@ import { JogosComponent } from './jogos/jogos.component';
 import { TabelaComponent } from './tabela/tabela.component';
 import { TimesComponent } from './times/times.component';
 import { NoticiasComponent } from './noticias/noticias.component';
+import { Time1Component } from './time1/time1.component';
+import { SktComponent } from './skt/skt.component';
+import { G2Component } from './g2/g2.component';
+import { LiquidComponent } from './liquid/liquid.component';
+import { FlashwolvesComponent } from './flashwolves/flashwolves.component';
+import { BuffaloComponent } from './buffalo/buffalo.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +22,13 @@ import { NoticiasComponent } from './noticias/noticias.component';
     JogosComponent,
     TabelaComponent,
     TimesComponent,
-    NoticiasComponent
+    NoticiasComponent,
+    Time1Component,
+    SktComponent,
+    G2Component,
+    LiquidComponent,
+    FlashwolvesComponent,
+    BuffaloComponent
   ],
   imports: [
     BrowserModule,

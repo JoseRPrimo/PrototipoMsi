@@ -5,6 +5,7 @@
     align-items: center;
     justify-content: center;
     position: absolute;
+    font-family: "Spiegel-Regular";
 
     background-size:100% 100%;
     background-repeat: no-repeat;
@@ -20,6 +21,8 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+
+
 }
 
 .jumbotron{
@@ -39,13 +42,25 @@ td{
     height: 40px;
     align-items:center; 
     width: 160px;
+    
 }
 
 img{
     height: 40%;
-    margin: 25px 0px -40px 0px;
+    margin: 25px -10px -40px 0px;
 }
 
 table{
     margin-right: -30px;
+    margin-bottom: -55px;
+}
+
+button{
+    border: solid #463714 1px;
+    background-color: rgb(16, 16, 29);
+    color: #fbd989;
+    height: 60px;
+    width: 120px;
+    margin-bottom: 20px;
+    margin-top: 25px;
 }

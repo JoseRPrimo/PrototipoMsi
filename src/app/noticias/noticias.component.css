@@ -48,3 +48,13 @@ img{
 h6{
     margin: auto 0px 5px 0px;
 }
+
+button{
+    border: solid #463714 1px;
+    background-color: rgb(16, 16, 29);
+    color: #fbd989;
+    height: 60px;
+    width: 120px;
+    margin-bottom: 20px;
+    margin-top: 25px;
+}
